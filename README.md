@@ -6,8 +6,8 @@
 
 ## 预览
 
-![预览图-1](./docs/image-1.png)
-![预览图-2](./docs/image-2.png)
+<img src="./docs/image-1.png" width="60%" alt="预览图-1" />
+<img src="./docs/image-2.png" width="60%" alt="预览图-2" />
 
 ## 我们能为B端客户做什么？
 
