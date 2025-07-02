@@ -1,95 +1,56 @@
-# monorepo-vue-starter
+# 企业服务平台 —— 助力企业数字化，专属定制开发与维护
 
-现代化 Monorepo 架构的 Vue 起始项目，基于 Vite、Vue 3、TypeScript，内置 TailwindCSS 原子化方案，采用 pnpm 作为包管理工具，适合中大型团队高效开发与协作。
+本仓库仅用于展示企业服务平台相关介绍与服务内容，仓库本身不包含可运行代码。如需定制开发、技术服务或咨询，请查看： [联系我们](#联系我们)
 
-## 项目亮点
+本平台为B端企业客户提供平台二次开发、定制化功能开发与长期技术运维服务，助力企业数字化升级，合规高效发展。
 
-- **Monorepo 架构**：基于 pnpm workspace，支持多包统一管理，便于模块复用与团队协作。
-- **Vue 3 + Vite**：极速开发体验，支持最新 Composition API。
-- **TypeScript 全量类型支持**：集成 vue-tsc，类型安全无忧。
-- **TailwindCSS 原子化 CSS**：极致灵活的样式方案，支持自定义扩展。
-- **严格代码规范**：集成 ESLint、Prettier、Commitlint、Husky，保障团队代码质量。
-- **现代化开发体验**：支持 VSCode + Volar，类型推断与高亮无缝体验。
+## 预览
 
-## 目录结构
+![预览图-1](./docs/image-1.png)
+![预览图-2](./docs/image-2.png)
 
-```text
-monorepo-vue-starter/
-├── packages/                # Monorepo 子包（可扩展自定义工具包）
-├── src/                     # 主应用源码
-│   ├── assets/              # 静态资源与全局样式（已引入 TailwindCSS）
-│   ├── components/          # 通用组件
-│   ├── views/               # 页面视图
-│   ├── stores/              # 状态管理
-│   └── router/              # 路由配置
-├── public/                  # 公共资源
-├── package.json             # 根包配置，依赖与脚本
-├── pnpm-workspace.yaml      # Monorepo 配置
-├── vite.config.ts           # Vite 配置，已集成 TailwindCSS
-└── ...                      # 其他配置文件
-```
+## 我们能为B端客户做什么？
 
-## 快速开始
+- **专属定制开发**：根据企业实际业务需求，深度定制功能模块、界面风格、业务流程，打造专属企业服务平台。
+- **系统集成与对接**：支持与企业现有系统（如OA、ERP、财务等）无缝集成，提升信息流转效率。
+- **持续技术维护**：提供长期技术支持、系统升级、故障响应，保障平台稳定运行。
+- **合规与安全保障**：严格遵循数据安全与合规要求，助力企业无忧经营。
+- **专属顾问服务**：配备资深项目经理与开发团队，全流程对接，确保项目高效落地。
 
-### 环境要求
+## 适用场景
 
-- Node.js 18 及以上
-- [pnpm](https://pnpm.io/) 10 及以上
+- 企业希望拥有专属的工商服务平台，提升服务数字化水平
+- 需要将平台与企业内部系统集成，实现数据互通
+- 对平台功能、界面、流程有个性化定制需求
+- 需要长期技术运维和升级保障
 
-### 安装依赖
+## 合作流程
 
-```sh
-pnpm install
-```
-
-### 代码检查与格式化
-
-```sh
-pnpm run lint      # 代码规范检查
-pnpm run format    # 代码格式化
-```
-
-### 类型检查
-
-```sh
-pnpm run type-check
-```
-
-## 推荐开发工具
-
-### 推荐开发工具
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)（请禁用 Vetur）
-
-## 依赖说明
-
-- **主依赖**：
-  - `vue`、`vue-router`、`@vueuse/core`
-- **开发依赖**：
-  - `vite`、`@vitejs/plugin-vue`、`tailwindcss`、`eslint`、`prettier`、`husky`、`vue-tsc`、`commitlint`、`lint-staged`、`onchange`、`typescript` 等
-- **工具包依赖**（如有）：
-  - `@ethan-utils/axios`、`@ethan-utils/pinia` 等
-
-## 代码规范与提交
-
-- 采用 ESLint + Prettier 统一代码风格
-- 提交前自动 lint & format
-- 使用 Commitlint 规范提交信息
-- Husky 钩子自动化流程
-
-## 进阶用法
-
-- 可在 `packages/` 目录下扩展自定义工具包
-- TailwindCSS 配置可在根目录自定义
-- 支持多环境配置与环境变量注入
-
-## 参考文档
-
-- [Vite 官方文档](https://vitejs.dev/)
-- [Vue 3 官方文档](https://cn.vuejs.org/)
-- [TailwindCSS 官方文档](https://tailwindcss.com/)
-- [pnpm 官方文档](https://pnpm.io/)
+1. 需求沟通与方案定制
+2. 签署合作协议
+3. 专属团队开发与交付
+4. 上线部署与培训
+5. 持续维护与升级
 
 ---
 
-如需二次开发或团队协作建议，欢迎补充需求！
+> 让企业服务平台成为您的专属数字化助手，助力企业高效合规发展。欢迎咨询合作，获取专属定制方案！
+
+---
+
+## 技术架构（为IT负责人/合作方参考）
+
+- 前端框架：Vue 3
+- 路由管理：vue-router
+- 组件库：自定义组件 + Tailwind CSS 原子化样式
+- 状态管理：Pinia（@ethan-utils/pinia）
+- 工具库：@vueuse/core
+- 构建工具：Vite
+- 代码规范：ESLint、Prettier、Oxlint
+
+## 联系我们
+
+- 工作时间：周一至周日 9:00-20:30
+- 平台支持在线客服咨询
+- 欢迎企业合作与定制需求洽谈
+- 微信：digitalNomad2006 | 131-9876-3535
